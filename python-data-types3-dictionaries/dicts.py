@@ -11,7 +11,7 @@ county_gov = {
         "Mombasa": "Abdulsharif Swahamad",
         "Machakos": "Wavinya Ndeti",
         "Kitui": "Dr.Julius Malombe",
-        "Trans Nzoia":"George Natembeya"
+        "Trans Nzoia": "George Natembeya"
         }
 
 # using dict() function
@@ -21,7 +21,7 @@ print("County-Gov: ", county_gov)
 print("Identity_Matrix: ", identity_matrix)
 
 print("===Accessing values in a dictionary===")
-# using [] 
+# using []
 ksg = county_gov["Kisumu"]
 ng = county_gov["Nairobi"]
 mog = county_gov["Mombasa"]
@@ -63,7 +63,7 @@ county_gov.popitem()
 print("County_gov after removing Trans Nzoia: ", county_gov)
 # using clear()
 identity_matrix.clear()
-print("Identity_matrix after removing all elements-empty dictionary: ", identity_matrix)
+print("Identity_matrix after removing all elements: ", identity_matrix)
 
 print("===Dictionary Methods===")
 print("Keys: ", county_gov.keys())
